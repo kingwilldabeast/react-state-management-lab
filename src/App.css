@@ -1,3 +1,16 @@
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.team, .choices {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  /* flex-wrap: wrap; */
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;
